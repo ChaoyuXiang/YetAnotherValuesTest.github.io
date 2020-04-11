@@ -206,4 +206,22 @@ ideologies = [
             "scty": 5,
         }
     },
+	{
+        "name": "民族布尔什维克主义",
+        "stats": {
+            "econ": 70,
+            "dipl": 5,
+            "govt": 5,
+            "scty": 10,
+        }
+    },
+		{
+        "name": "中间派",
+        "stats": {
+            "econ": 50,
+            "dipl": 50,
+            "govt": 50,
+            "scty": 50,
+        }
+    },
 ];

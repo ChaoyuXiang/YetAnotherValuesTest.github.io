@@ -1,6 +1,6 @@
 questions = [
     {
-        "question": "面对公共危机事件，哪怕可能会引发民众的恐慌，政府也不应该瞒报实情。",
+        "question": "面对公共危机事件，哪怕会引发民众的恐慌骚乱，政府也不应该瞒报实情。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -10,12 +10,22 @@ questions = [
         }
     },
     {
-        "question": "生不生、生多少小孩是每个家庭的自由，政府与社会不应干涉。",
+        "question": "妄议时事的言论会破坏社会稳定，制造者和传播者应当严惩。",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0,
+            "envo": 0
+        }
+    },
+    {
+        "question": "即使面临人口膨胀或人口老龄化的压力，生不生、生多少小孩也是每个人的自由，政府与社会不应干涉。",
         "effect": {
             "econ": 0,
             "dipl": 0,
             "govt": 10,
-            "scty": 5,
+            "scty": 0,
             "envo": 0
         }
     },
@@ -30,31 +40,41 @@ questions = [
         }
     },
     {
-        "question": "只有高素养公民才能参与民主政治。",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0,
-            "envo": 0
-        }
-    },
-    {
-        "question": "西方多党民主制下相互扯皮，效率低下。",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": -10,
-            "scty": 0,
-            "envo": 0
-        }
-    },
-    {
-        "question": "批评和监督政府的言论应当被宽容，政府不应干涉。",
+        "question": "国家是对暴力和压迫的垄断，任何国家都应当被废除。",
         "effect": {
             "econ": 0,
             "dipl": 0,
             "govt": 10,
+            "scty": 0,
+            "envo": 0
+        }
+    },
+    {
+        "question": "将选举权交给乌合之众（群氓）是危险的，只有高素养公民才能参与政治。",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0,
+            "envo": 0
+        }
+    },
+    {
+        "question": "西方多党制下相互扯皮，效率低下。",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0,
+            "envo": 0
+        }
+    },
+    {
+        "question": "如果示威者危害了国家的团结和稳定，政府应当不惜动用致命武力来铁腕镇压。",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
             "scty": 0,
             "envo": 0
         }
@@ -70,9 +90,49 @@ questions = [
         }
     },
     {
+        "question": "在一切国内公开场合（包括出版物）出现我国地图时，必须使用官方声明的正确主权版图。",
+        "effect": {
+            "econ": 0,
+            "dipl": -5,
+            "govt": -5,
+            "scty": 0,
+            "envo": 0
+        }
+    },
+    {
+        "question": "对文化产品的一切事先审查制度都应该取消。",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 10,
+            "scty": 0,
+            "envo": 0
+        }
+    },
+    {
+        "question": "一个秩序井然的专制统治好于混乱的无政府状态。",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -10,
+            "scty": 0,
+            "envo": 0
+        }
+    },
+    {
+        "question": "将重要事务交给民众公投决定是政治精英不负责任的表现。",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": -5,
+            "scty": 0,
+            "envo": 0
+        }
+    },
+    {
         "question": "关系到国家安全和国民经济命脉的行业必须国有。",
         "effect": {
-            "econ": 10,
+            "econ": 5,
             "dipl": 0,
             "govt": 0,
             "scty": 0,
@@ -80,37 +140,7 @@ questions = [
         }
     },
     {
-        "question": "政府应当提高社会福利支出，改善低收入者的生活水平。",
-        "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0,
-            "envo": 0
-        }
-    },
-    {
-        "question": "政府应当提高粮食收购价格，以保障农民的利益。",
-        "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0,
-            "envo": 0
-        }
-    },
-    {
-        "question": "金融业没有创造社会财富。",
-        "effect": {
-            "econ": 10,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0,
-            "envo": 0
-        }
-    },
-    {
-        "question": "为了确保经济的发展，可以在一定程度上牺牲劳动者的权益。",
+        "question": "任何税收都是对私有财产不可接受的侵犯。",
         "effect": {
             "econ": -10,
             "dipl": 0,
@@ -120,9 +150,59 @@ questions = [
         }
     },
     {
-        "question": "教育和医疗等公共事业应当限制其私有化。",
+        "question": "政府应当提高粮食收购价格，以保障农民的利益。",
+        "effect": {
+            "econ": 5,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0,
+            "envo": 0
+        }
+    },
+    {
+        "question": "金融业、房地产及其从业者通过市场规则分得了远超其实际创造的社会价值的蛋糕。",
         "effect": {
             "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0,
+            "envo": 0
+        }
+    },
+    {
+        "question": "雇佣劳动是资本家对劳动者的剥削和奴役。",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0,
+            "envo": 0
+        }
+    },
+    {
+        "question": "为了确保经济的发展，可以默许在一定程度上牺牲劳动者的权益。",
+        "effect": {
+            "econ": -10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0,
+            "envo": 0
+        }
+    },
+    {
+        "question": "教育和医疗等公共事业应当严格限制其私有化。",
+        "effect": {
+            "econ": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0,
+            "envo": 0
+        }
+    },
+    {
+        "question": "政府干预可以有效纠正市场失灵。",
+        "effect": {
+            "econ": 5,
             "dipl": 0,
             "govt": 0,
             "scty": 0,
@@ -140,7 +220,7 @@ questions = [
         }
     },
     {
-        "question": "不涉及国家安全和国民经济命脉的亏损国企应当私有化。",
+        "question": "亏损国企与其继续亏损，不如私有化卖给资本家。",
         "effect": {
             "econ": -5,
             "dipl": 0,
@@ -150,7 +230,7 @@ questions = [
         }
     },
     {
-        "question": "市场规则完善的情况下，劳动者也常常未得到与其付出相称的工资。",
+        "question": "底层民众深受经济全球化所害。",
         "effect": {
             "econ": 10,
             "dipl": 0,
@@ -160,9 +240,9 @@ questions = [
         }
     },
     {
-        "question": "大部分人享受到的经济全球化的好处少于其害处。",
+        "question": "生产资料私有制应当被废除。",
         "effect": {
-            "econ": 5,
+            "econ": 10,
             "dipl": 0,
             "govt": 0,
             "scty": 0,
@@ -170,7 +250,17 @@ questions = [
         }
     },
     {
-        "question": "政府和社会无权干涉成年人之间自愿且安全的性行为。",
+        "question": "只要员工同意，企业就有权规定任意长的工作时间。",
+        "effect": {
+            "econ": -10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0,
+            "envo": 0
+        }
+    },
+    {
+        "question": "政府和社会无权干涉成年人之间自愿且安全的性行为，不管其婚姻关系如何。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -205,12 +295,12 @@ questions = [
             "econ": 0,
             "dipl": 0,
             "govt": 0,
-            "scty": -5,
+            "scty": -10,
             "envo": 0
         }
     },
     {
-        "question": "司法判决不应当受民意或舆论压力影响。",
+        "question": "婚姻制度应当被废除。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -220,7 +310,17 @@ questions = [
         }
     },
     {
-        "question": "与现代主流医学相比，中国传统医学更值得信任。",
+        "question": "律师即使明知被辩护人的犯罪事实也应当尽力为其进行辩护。",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 10,
+            "envo": 0
+        }
+    },
+    {
+        "question": "与现代主流医学相比，我国传统医学更值得信任。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -240,12 +340,12 @@ questions = [
         }
     },
     {
-        "question": "律师即使明知被辩护人的犯罪事实也应当尽力为其进行辩护。",
+        "question": "女子无才便是德。",
         "effect": {
             "econ": 0,
             "dipl": 0,
             "govt": 0,
-            "scty": 10,
+            "scty": -10,
             "envo": 0
         }
     },
@@ -260,10 +360,30 @@ questions = [
         }
     },
     {
-        "question": "中国应当援助有困难的国家。",
+        "question": "司法判决不应当受民意或舆论压力影响。",
         "effect": {
             "econ": 0,
-            "dipl": 10,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 10,
+            "envo": 0
+        }
+    },
+    {
+        "question": "现在女性的地位已经大大高于男性，女权主义应当被遏制。",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": -10,
+            "envo": 0
+        }
+    },
+    {
+        "question": "我国应当援助有困难的国家。",
+        "effect": {
+            "econ": 0,
+            "dipl": 5,
             "govt": 0,
             "scty": 0,
             "envo": 0
@@ -280,7 +400,7 @@ questions = [
         }
     },
     {
-        "question": "中国应使用一切可能的手段来维护国家利益。",
+        "question": "没有祖国，你什么都不是。",
         "effect": {
             "econ": 0,
             "dipl": -10,
@@ -290,7 +410,17 @@ questions = [
         }
     },
     {
-        "question": "中国的工业体系必须自力更生，重要行业一定要掌握在国人手里。",
+        "question": "我国应使用一切可能的手段来维护国家利益。",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": 0,
+            "scty": 0,
+            "envo": 0
+        }
+    },
+    {
+        "question": "我国的工业体系必须自力更生，重要行业一定要掌握在国人手里。",
         "effect": {
             "econ": 5,
             "dipl": -5,
@@ -320,6 +450,46 @@ questions = [
         }
     },
     {
+        "question": "国家和地区的边界终究要被废除。",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 0,
+            "scty": 0,
+            "envo": 0
+        }
+    },
+    {
+        "question": "族群之间存在天生的勤劳、聪明程度等的优劣差异。",
+        "effect": {
+            "econ": 0,
+            "dipl": -10,
+            "govt": 0,
+            "scty": 0,
+            "envo": 0
+        }
+    },
+    {
+        "question": "在我国永居的外国人应当拥有与本国公民同等的政治权利。",
+        "effect": {
+            "econ": 0,
+            "dipl": 10,
+            "govt": 0,
+            "scty": 0,
+            "envo": 0
+        }
+    },
+    {
+        "question": "人为造成的全球气候变化根本不存在，全球变暖是个骗局。",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0,
+            "envo": -10
+        }
+    },
+    {
         "question": "为了快速发展经济，“先污染后治理”是可取的。",
         "effect": {
             "econ": 0,
@@ -340,7 +510,7 @@ questions = [
         }
     },
     {
-        "question": "为了环保，我可以接受使用清洁能源造成的成本增加。",
+        "question": "为了环保，我可以接受使用清洁能源造成的生活成本大幅增加。",
         "effect": {
             "econ": 0,
             "dipl": 0,
@@ -350,27 +520,7 @@ questions = [
         }
     },
     {
-        "question": "人为造成的全球气候变化不存在。",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0,
-            "envo": -10
-        }
-    },
-    {
-        "question": "人类行动造成的物种灭绝是不可容忍的，我们应当竭尽全力阻止这种事的发生。",
-        "effect": {
-            "econ": 0,
-            "dipl": 0,
-            "govt": 0,
-            "scty": 0,
-            "envo": 10
-        }
-    },
-    {
-        "question": "政府应该对企业进行更严格的环境管制。",
+        "question": "即使会影响经济效益，政府也应该对企业执行更严格的环境影响评估。",
         "effect": {
             "econ": 5,
             "dipl": 0,
@@ -380,7 +530,17 @@ questions = [
         }
     },
     {
-        "question": "哪怕其他国家没有完成，中国仍要实现在国际减排合约上的承诺。",
+        "question": "因人类行为而造成的物种灭绝是不可容忍的，我们应当竭尽全力阻止这种事的发生。",
+        "effect": {
+            "econ": 0,
+            "dipl": 0,
+            "govt": 0,
+            "scty": 0,
+            "envo": 10
+        }
+    },
+    {
+        "question": "哪怕其他国家没有完成，我国仍要实现在国际减排合约上的承诺。",
         "effect": {
             "econ": 0,
             "dipl": 5,
@@ -389,4 +549,4 @@ questions = [
             "envo": 10
         }
     }
-]
+];
